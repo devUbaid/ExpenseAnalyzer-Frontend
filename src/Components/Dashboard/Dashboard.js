@@ -6,7 +6,7 @@ import { dollar } from "../../utils/Icons";
 import Chart from "../Chart/Chart";
 import "./Dashboard.css"; // Import the CSS file
 
-function Dashboard() {
+function Dashboard({ setActive }) { // ✅ Accept setActive as prop
   const {
     totalExpenses,
     incomes,
@@ -58,7 +58,11 @@ function Dashboard() {
             </div>
           </div>
           <div className="history-con">
-            <div className="history-scroll">
+          <div 
+              className="history-scroll" 
+              onClick={() => setActive(2)} // ✅ Change active tab to History
+              style={{ cursor: "pointer" }}
+            >
               <History isDashboard={true} noPadding limitTransactions={true} />
             </div>
             <h2 className="salary-title">

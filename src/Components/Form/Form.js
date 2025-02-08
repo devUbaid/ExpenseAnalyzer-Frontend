@@ -3,7 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Button from "../Button/Button.js";
 import { plus } from "../../utils/Icons.js";
-import { useGlobalContext } from "../../context/globalContext";
+import { useGlobalContext } from "../../context/globalContext.js";
 import "./Form.css"; // Import the CSS file
 
 function Form() {

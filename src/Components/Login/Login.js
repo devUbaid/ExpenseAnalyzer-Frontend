@@ -29,7 +29,7 @@ function Login({ setIsLoggedIn, switchPage }) {
 
     return (
         <div className="form">
-            <h1>Welcome Back!</h1>
+            <h1>Welcome Back😊</h1>
             <h5>demoAccount@gmail.com | @Demo123</h5>
             <p>Please enter your details</p>
             <input 

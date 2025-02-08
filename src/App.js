@@ -31,7 +31,7 @@ function App() {
     const displayData = () => {
         switch (active) {
             case 1:
-                return <Dashboard />;
+                return <Dashboard setActive={setActive} />; // ✅ Pass setActive
             case 2:
                 return <History />;
             case 3:
@@ -39,7 +39,7 @@ function App() {
             case 4:
                 return <Expenses />;
             default:
-                return <Dashboard />;
+                return <Dashboard setActive={setActive} />; // ✅ Pass setActive
         }
     };
 
@@ -105,7 +105,7 @@ const AppStyled = styled.div`
 const LoginPage = styled.div`
   height: 100vh;
   display: flex;
-  padding: 2.5rem;
+  padding: 1.6rem;
   justify-content: center;
   align-items: center;
   background-color: #f5f5dc; /* Light Beige for Register Page */
@@ -114,7 +114,7 @@ const LoginPage = styled.div`
 const RegisterPage = styled.div`
   height: 100vh;
   display: flex;
-  padding: 2.5rem;
+  padding: 1.6rem;
   justify-content: center;
   align-items: center;
   background-color: #f5f5dc; /* Light Beige for Register Page */
