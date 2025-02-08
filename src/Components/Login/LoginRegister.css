@@ -1,0 +1,68 @@
+/* AuthForm.css */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.form  h5{
+    color: #007bff;
+    font-size: 1rem;
+}
+
+.form p {
+    font-size: 1rem;
+    color: #555;
+    margin: 1rem;
+}
+
+.form input {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form .btn-primary {
+    background: black;
+    color: white;
+    padding: 0.7rem;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.form .link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.form .options a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}

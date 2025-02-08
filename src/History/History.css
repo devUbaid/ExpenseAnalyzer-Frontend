@@ -1,0 +1,24 @@
+/* History.css */
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: var(--padding, 2rem); /* Use a CSS variable for dynamic padding */
+}
+
+.history-container h2 {
+    text-align: center;
+    color: #113946;
+}
+
+.history-item {
+    background: #f6f5f2;
+    border: 1px solid #c1baa1;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
