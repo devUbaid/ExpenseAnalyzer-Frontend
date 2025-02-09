@@ -33,5 +33,22 @@ Expense Analyzer Web Application built with the MERN stack (MongoDB, Express, Re
 
 ### ✨ Technologies Used:
 1) Frontend: ReactJS
-2) Backend: Node.js with Express.js
-3) Database: MongoDB
+2) Backend: Node.js and Express.js
+3) Database: MongoDB 
+
+## Overview
+
+
+
+### Photos
+![Screenshot 2025-02-09 150558](https://github.com/user-attachments/assets/be9ecb62-79cb-4a53-9287-6458f79f6b29)
+![Screenshot 2025-02-09 150610](https://github.com/user-attachments/assets/7d1ea0dc-e20e-43e4-a27f-395029a3a6c7)
+![Screenshot 2025-02-09 150308](https://github.com/user-attachments/assets/c39954f0-28f9-4c5b-bb33-db70e6485ecc)
+![Screenshot 2025-02-09 150344](https://github.com/user-attachments/assets/57094be6-525f-4a85-840a-8e16476927c9)
+![Screenshot 2025-02-09 150354](https://github.com/user-attachments/assets/5ca95e90-b786-4693-8ca2-56aa6f142d37)
+![Screenshot 2025-02-09 150324](https://github.com/user-attachments/assets/946b3c69-85ee-43fe-ab14-df6d13e1c1d8)
+
+
+
+
+
